@@ -191,6 +191,11 @@ See the demo of running [*Text-Generation-WebUI*](https://ipex-llm.readthedocs.i
 - [Axolotl](docs/mddocs/Quickstart/axolotl_quickstart.md): 使用 **Axolotl** 和 `ipex-llm` 进行 LLM 微调
 - [Benchmarking](docs/mddocs/Quickstart/benchmark_quickstart.md):  在 Intel GPU 和 CPU 上运行**性能基准测试**（延迟和吞吐量）
 
+### 安装
+- [Windows GPU](docs/mddocs/Quickstart/install_windows_gpu.zh-CN.md): 在带有 Intel GPU 的 Windows 系统上安装 `ipex-llm` 
+- [Linux GPU](docs/mddocs/Quickstart/install_linux_gpu.zh-CN.md): 在带有 Intel GPU 的Linux系统上安装 `ipex-llm` 
+- *更多内容, 请参考[完整安装指南](docs/mddocs/Overview/install.md)*
+ 
 ### Docker
 - [GPU Inference in C++](docs/mddocs/DockerGuides/docker_cpp_xpu_quickstart.md): 在 Intel GPU 上使用 `ipex-llm` 运行 `llama.cpp`, `ollama`等
 - [GPU Inference in Python](docs/mddocs/DockerGuides/docker_pytorch_inference_gpu.md) : 在 Intel GPU 上使用 `ipex-llm` 运行 HuggingFace `transformers`, `LangChain`, `LlamaIndex`, `ModelScope`，等
@@ -207,11 +212,6 @@ See the demo of running [*Text-Generation-WebUI*](https://ipex-llm.readthedocs.i
 - [Open WebUI](docs/mddocs/Quickstart/open_webui_with_ollama_quickstart.md): 基于 `ipex-llm` 运行 `Open WebUI`
 - [PrivateGPT](docs/mddocs/Quickstart/privateGPT_quickstart.md): 基于 `ipex-llm` 运行 `PrivateGPT` 与文档进行交互
 - [Dify platform](docs/mddocs/Quickstart/dify_quickstart.md): 在`Dify`(*一款开源的大语言模型应用开发平台*) 里接入 `ipex-llm` 加速本地 LLM
-
-### 安装
-- [Windows GPU](docs/mddocs/Quickstart/install_windows_gpu.zh-CN.md): 在带有 Intel GPU 的 Windows 系统上安装 `ipex-llm` 
-- [Linux GPU](docs/mddocs/Quickstart/install_linux_gpu.zh-CN.md): 在带有 Intel GPU 的Linux系统上安装 `ipex-llm` 
-- *更多内容, 请参考[完整安装指南](docs/mddocs/Overview/install.md)*
 
 ### 代码示例
 - #### 低比特推理
